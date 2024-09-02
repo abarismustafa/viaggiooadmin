@@ -1,12 +1,12 @@
 import { Pagination } from 'antd'
 import React from 'react'
 
-function MyAmendmentListComp() {
+function VisaGroupListComp() {
   return (
     <>
     {/* {loading && <Loader />} */}
     <div className="PageHeading">
-        <h1>Hotel Amendments List</h1>
+        <h1>Group Request List</h1>
     </div>
     <div className="ContentArea">
         <div className="card">
@@ -69,31 +69,22 @@ function MyAmendmentListComp() {
                                 <th className="sorting">
                                     S.No
                                 </th>
-                                <th className="sorting">Booking Reference Number</th>
-                                <th className="sorting">Amendment Id</th>
+                                <th className="sorting">Destination</th>
+                                <th className="sorting">Visa Type</th>
                                 <th className="sorting">
-                                Amendment Type
+                                Consulate
                                 </th>
-                                <th className="sorting" >Amendment Status</th>
-                                <th className="sorting" >Hotel Name</th>
-                                <th className="sorting" >Traveller Name	</th>
-                                <th className="sorting" >Checkin Date</th>
-                                <th className="sorting" >Check Out Date</th>
-                                <th className="sorting" >City/ Country</th>
-                                <th className="sorting" >Booking Status</th>
-                                <th className="sorting">Remark</th>
-                                <th className="sorting">Generate By</th>
-                                <th className="sorting">Created</th>
-                                <th className="sorting">Summary</th>
+                                <th className="sorting" >Total Adult</th>
+                                <th className="sorting" >	Total Child</th>
+                                <th className="sorting" >Total Infant</th>
+                                <th className="sorting" >Admin Remark</th>
+                                <th className="sorting" >Status</th>
+                                <th className="sorting">Action</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr className="odd">
                                 <td valign="top" className="dataTables_empty">1</td>
-                                <td valign="top" className="dataTables_empty">----</td>
-                                <td valign="top" className="dataTables_empty">----</td>
-                                <td valign="top" className="dataTables_empty">----</td>
-                                <td valign="top" className="dataTables_empty">----</td>
                                 <td valign="top" className="dataTables_empty">----</td>
                                 <td valign="top" className="dataTables_empty">----</td>
                                 <td valign="top" className="dataTables_empty">----</td>
@@ -126,4 +117,4 @@ function MyAmendmentListComp() {
   )
 }
 
-export default MyAmendmentListComp
+export default VisaGroupListComp

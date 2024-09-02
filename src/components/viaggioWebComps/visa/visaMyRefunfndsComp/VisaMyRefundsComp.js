@@ -1,12 +1,12 @@
 import { Pagination } from 'antd'
 import React from 'react'
 
-function MyAmendmentListComp() {
+function VisaMyRefundsComp() {
   return (
     <>
     {/* {loading && <Loader />} */}
     <div className="PageHeading">
-        <h1>Hotel Amendments List</h1>
+        <h1>Refund List</h1>
     </div>
     <div className="ContentArea">
         <div className="card">
@@ -69,30 +69,24 @@ function MyAmendmentListComp() {
                                 <th className="sorting">
                                     S.No
                                 </th>
-                                <th className="sorting">Booking Reference Number</th>
+                                <th className="sorting">Booking Ref. Number</th>
                                 <th className="sorting">Amendment Id</th>
                                 <th className="sorting">
-                                Amendment Type
+                                Refund Type
                                 </th>
-                                <th className="sorting" >Amendment Status</th>
-                                <th className="sorting" >Hotel Name</th>
-                                <th className="sorting" >Traveller Name	</th>
-                                <th className="sorting" >Checkin Date</th>
-                                <th className="sorting" >Check Out Date</th>
-                                <th className="sorting" >City/ Country</th>
-                                <th className="sorting" >Booking Status</th>
-                                <th className="sorting">Remark</th>
-                                <th className="sorting">Generate By</th>
-                                <th className="sorting">Created</th>
-                                <th className="sorting">Summary</th>
+                                <th className="sorting" >Refund Amount</th>
+                                <th className="sorting" >Refund Status</th>
+                                <th className="sorting" >Country</th>
+                                <th className="sorting" >Type</th>
+                                <th className="sorting" >Travel Date</th>
+                                
+                                <th className="sorting" >Remark</th>
+                                <th className="sorting" >Created</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr className="odd">
                                 <td valign="top" className="dataTables_empty">1</td>
-                                <td valign="top" className="dataTables_empty">----</td>
-                                <td valign="top" className="dataTables_empty">----</td>
-                                <td valign="top" className="dataTables_empty">----</td>
                                 <td valign="top" className="dataTables_empty">----</td>
                                 <td valign="top" className="dataTables_empty">----</td>
                                 <td valign="top" className="dataTables_empty">----</td>
@@ -126,4 +120,4 @@ function MyAmendmentListComp() {
   )
 }
 
-export default MyAmendmentListComp
+export default VisaMyRefundsComp
