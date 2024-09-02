@@ -69,7 +69,8 @@ function AsideAdmin({ isActive, overlayClick, handleMenuClick, clickoVer, tokenN
         services: false,
         loan: false,
         network: false,
-        earning:false
+        earning:false,
+        viaggoHotel:false,
 
     });
 
@@ -105,7 +106,8 @@ function AsideAdmin({ isActive, overlayClick, handleMenuClick, clickoVer, tokenN
             services: false,
             loan: false,
             network: false,
-            earning:false
+            earning:false,
+            viaggoHotel:false,
         }
         const target = window.localStorage.getItem('openMenu')
         if (!window.localStorage.getItem('openMenu')) {
@@ -114,6 +116,7 @@ function AsideAdmin({ isActive, overlayClick, handleMenuClick, clickoVer, tokenN
                 payment: false,
                 setting: false,
                 disput: false,
+                viaggoHotel:false,
                 package: false,
                 services: false,
                 loan: false,
@@ -222,6 +225,7 @@ function AsideAdmin({ isActive, overlayClick, handleMenuClick, clickoVer, tokenN
           </i>
         </Link>
       </div>
+
       <div id="collapseSettings" className={`SubmenuItems collapse ${allAside.services ? "mm-show" : "extra"}`} aria-labelledby="headingSettings" data-parent="#accordion">
         <ul>
           <li onClick={handleMenuClick}>
@@ -698,6 +702,47 @@ function AsideAdmin({ isActive, overlayClick, handleMenuClick, clickoVer, tokenN
                             </ul>
                         </div>
                     </div>
+
+                    <div className="MenuItem ">
+                        <div className="card-header collapsed headingSettings-2" id="headingSettings" data-toggle="collapse" data-target="#collapseSettings" aria-expanded="false" aria-controls="collapseSettings">
+                            <Link href="#" onClick={() => { changeOpen(!allAside.viaggoHotel, "viaggoHotel"); }}>
+                                <MdOutlineDisplaySettings />
+                                <span>Hotel</span>
+                                <i className="ic">
+                                    <svg x={0} y={0} viewBox="0 0 7 11">
+                                        <path d="M6.783,6.060 L2.231,10.803 C1.941,11.104 1.472,11.104 1.182,10.803 C0.893,10.501 0.893,10.012 1.182,9.710 L5.210,5.514 L1.182,1.317 C0.893,1.015 0.893,0.526 1.182,0.224 C1.472,-0.077 1.941,-0.077 2.231,0.224 L6.783,4.967 C6.928,5.118 7.000,5.316 7.000,5.514 C7.000,5.711 6.927,5.909 6.783,6.060 Z" />
+                                    </svg>
+                                </i>
+                            </Link>
+                        </div>
+                        <div id="collapseSettings" className={`SubmenuItems collapse ${allAside.viaggoHotel ? "mm-show" : "extra"}`} aria-labelledby="headingSettings" data-parent="#accordion">
+                            <ul>
+                                <li onClick={handleMenuClick}>
+                                    <NavLink to="">Hotel Search</NavLink>
+                                </li>
+                                <li onClick={handleMenuClick}>
+                                    <NavLink to="hotel/group-requests">Group Request</NavLink>
+                                </li>
+                                <li onClick={handleMenuClick}>
+                                    <NavLink to="hotel/my-bookings">My Bookings</NavLink>
+                                </li>
+                                <li onClick={handleMenuClick}>
+                                    <NavLink to="hotel/my-booking-calender">My Booking Calender</NavLink>
+                                </li>
+                                <li onClick={handleMenuClick}>
+                                    <NavLink to="hotel/my-amendments">My Amendments</NavLink>
+                                </li>
+                                <li onClick={handleMenuClick}>
+                                    <NavLink to="hotel/hotel-cancellations">My Cancellations</NavLink>
+                                </li>
+                                <li onClick={handleMenuClick}>
+                                    <NavLink to="hotel/hotel-refunds">My Refunds</NavLink>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
                     <div className="MenuItem ">
                         {/* <div className="card-header">
                             <Link to="activity-logs">
