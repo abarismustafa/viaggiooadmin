@@ -157,6 +157,12 @@ import CmsInvoice from './pages/admin/userlist/CmdInvoice';
 import FlightTicketListPage from './pages/admin/flightTicketList/FlightTicketList';
 import BussTicketListPage from './pages/admin/bussTicketList';
 import HotalDetails from './components/hotalDetails/HotalDetails';
+import ViaggioHotelBookingListPage from './pages/viaggioHotelBookingList';
+import HotelGroupRequestListPage from './pages/viaggioWebPages/hotelGroupRequestListPage';
+import MyBookingCalenderListPage from './pages/viaggioWebPages/myBookingCalenderListPage';
+import MyAmendmentsListPage from './pages/viaggioWebPages/myAmendmentsListPage';
+import MyCancellationPage from './pages/viaggioWebPages/myCancellationsPage';
+import MyRefundsPage from './pages/viaggioWebPages/myRefundsPage';
 
 function App() {
   const [isLogin, setislogin] = useState(window.localStorage.getItem('login'))
@@ -559,7 +565,7 @@ function App() {
             <Route path='aeps-transaction' element={<AepsTransisation />} /> */}
           {/* </Route> */}
           {/* <Route path='Retailer/Paytm_wallet' element={<PaytmWalletPage />} />
-          <Route path='money-transfer' element={<MoneyTransferPage walletShowHeader={walletShowHeader} />} />
+          // <Route path='money-transfer' element={<MoneyTransferPage walletShowHeader={walletShowHeader} />} />
           <Route path='aadhar-pay' element={<AdharPayPage />} />
           <Route path='ybl_home' element={<YblDtmPage />} />
           <Route path='creditcard_bill_payment' element={<CreditCardPaymentPage />} />
@@ -691,6 +697,18 @@ function App() {
             element={<AepsInvoice />}
           />
           <Route path="/payout-invoice/:id" element={<PayoutInvoice />} /> */}
+
+
+          <Route path="/hotel/my-bookings" element={<ViaggioHotelBookingListPage />} />
+          <Route path="/hotel/group-requests" element={<HotelGroupRequestListPage />} />
+          <Route path="/hotel/my-booking-calender" element={<MyBookingCalenderListPage />} />
+          <Route path="/hotel/my-amendments" element={<MyAmendmentsListPage />} />
+          <Route path="/hotel/hotel-cancellations" element={<MyCancellationPage />} />
+          <Route path="/hotel/hotel-refunds" element={<MyRefundsPage />} />
+          
+          
+        
+
         </Route>
         {/* <Route /> */}
       </Routes>
