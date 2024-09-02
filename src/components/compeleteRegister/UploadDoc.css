@@ -1,0 +1,16 @@
+.custom-file-upload input[type="file"] {
+    display: none;
+  }
+  
+  .custom-file-upload label {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    background-color: #f8f9fa;
+    transition: background-color 0.2s;
+  }
+  
+  .custom-file-upload label:hover {
+    background-color: #e9ecef;
+  }

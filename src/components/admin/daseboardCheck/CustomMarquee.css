@@ -1,0 +1,47 @@
+.custom-marquee-container {
+    background: linear-gradient(to right, #1a2980, #26d0ce);
+    color: white;
+    padding: 15px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .marquee-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 20s linear infinite;
+  }
+  
+  .congratulations {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: 15px;
+  }
+  
+  .message1111 {
+    font-size: 1.2em;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .custom-marquee-container {
+      padding: 10px;
+    }
+    
+    .congratulations {
+      font-size: 1.2em;
+    }
+    
+    .message {
+      font-size: 1em;
+    }
+  }

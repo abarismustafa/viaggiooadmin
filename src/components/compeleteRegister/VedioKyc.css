@@ -1,0 +1,14 @@
+.video-button {
+    transition: all 0.3s ease !important;
+  }
+  
+  .video-button:hover {
+    background-color: #28a745 !important;
+    color: white !important;
+  }
+  
+  @media (min-width: 768px) {
+    .video-button {
+      width: auto !important;
+    }
+  }

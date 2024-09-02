@@ -1,0 +1,75 @@
+.approvedstatusindownstrip{
+    background-color: yellow;
+    color: black;
+}
+.pendingstatusindownstrip {
+    background-color: green;
+    color: white;
+}
+.ur-container {
+    /* You can add any container-specific styles here */
+}
+
+.ur-title {
+    color: #333;
+    font-weight: 600;
+}
+
+.ur-total-count {
+    font-weight: 500;
+    color: #555;
+}
+
+.ur-card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.ur-card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e3e6f0;
+}
+
+.ur-search-input {
+    border-radius: 20px;
+    border: 1px solid #ced4da;
+}
+
+.ur-download-btn {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.ur-download-btn:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.ur-card-body {
+    padding: 1.25rem;
+}
+
+.ur-table {
+    margin-bottom: 0;
+}
+
+.ur-th {
+    background-color: #f1f3f5;
+    cursor: pointer;
+}
+
+.ur-th:hover {
+    background-color: #e9ecef;
+}
+
+.ur-tr:nth-of-type(odd) {
+    background-color: rgba(0,0,0,.02);
+}
+
+.ur-tr:hover {
+    background-color: rgba(0,0,0,.075);
+}
+
+.ur-no-data {
+    font-style: italic;
+    color: #6c757d;
+}

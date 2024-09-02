@@ -1,0 +1,65 @@
+
+.footerrowsignclass{
+  margin-top: -1%;
+}
+
+.footercss_class{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+
+.policy-content {
+  background-color: #ffffff;
+  border: 1px solid #e9ecef;
+  color: #212529;
+  border-radius: 0.25rem;
+}
+
+.policy-content p {
+  margin-bottom: 1rem;
+}
+
+.modal-content {
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.modalheaderpolicy {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.modalfooterpolicy {
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.policy-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.policy-content::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.policy-content::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.policy-content::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media (min-width: 1441px) {
+  .footerlasssign {
+      height: 5%;
+  }
+  .footerrowsignclass {
+      margin-top: -1% !important;
+  }
+}

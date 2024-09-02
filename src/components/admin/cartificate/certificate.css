@@ -1,0 +1,154 @@
+.certificate-container {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .certificate {
+    background: white;
+    border: 5px solid #8bc540;
+    padding: 40px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .certificate::before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    right: -50px;
+    bottom: -50px;
+    /* background: url('../../../../src/asesets/logo/image\ 2.png') center/cover; */
+    opacity: 0.1;
+    z-index: 0;
+  }
+  
+  .certificate-header {
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .logo {
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    color: #8bc540;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+  }
+  
+  .certificate-body {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .merchant-code {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .certify {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .certify h2 {
+    font-size: 2rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .address {
+    font-style: italic;
+    color: #666;
+  }
+  
+  .validity {
+    background: #f0f8ff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .validity-item {
+    text-align: center;
+  }
+  
+  .validity-item h3 {
+    font-size: 1.2rem;
+    color: #8bc540;
+  }
+  
+  .validity-item p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .certificate-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .signature img {
+    max-width: 150px;
+    border-bottom: 2px solid #333;
+  }
+  
+  .signature p {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .powered-by {
+    text-align: right;
+  }
+  
+  .powered-by p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .logo-small {
+    max-width: 100px;
+  }
+  
+  @media (max-width: 768px) {
+    .certificate {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    .certify h2 {
+      font-size: 1.5rem;
+    }
+  
+    .validity-item {
+      margin-bottom: 20px;
+    }
+  
+    .certificate-footer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .signature, .powered-by {
+      margin-bottom: 20px;
+    }
+  }

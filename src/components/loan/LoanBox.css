@@ -1,0 +1,231 @@
+.loanmain-box {
+    padding: 5% 10%;
+    background-color: #f8f9fa;
+}
+
+.loan-box {
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    margin-bottom: 30px;
+    background-color: var(--bg-color);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.loan-box:hover {
+    border-radius: 20px;
+    background-color: var(--hover-color);
+    padding-top: 140%;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.loan-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 60%;
+    max-height: 60%;
+    transition: all 0.4s ease;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+}
+
+.loan-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    opacity: 0;
+    transition: all 0.4s ease;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loan-box:hover .loan-img {
+    max-width: 40%;
+    max-height: 40%;
+    transform: translate(-50%, -100%);
+    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.2));
+}
+
+.loan-box:hover .loan-info {
+    opacity: 1;
+    transform: translate(-50%, 0%);
+}
+
+.loan-title {
+    margin-top: 26%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    opacity: 1;
+    transition: all 0.4s ease;
+    color: #333;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loan-title p {
+    margin: 0;
+    text-shadow: 0 1px 2px rgba(255,255,255,0.5);
+    font-weight: bold;
+    font-size: 0.8em !important;
+    line-height: 1.2;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+.loan-box:hover .loan-title {
+    opacity: 0;
+}
+
+.loan-click {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    margin-top: 15px;
+}
+
+.loan-click:hover {
+    background-color: rgba(255,255,255,0.3);
+    transform: scale(1.05);
+}
+
+.loan-info p {
+    font-size: 0.9em !important;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+@media (max-width: 1200px) {
+    .loan-box:hover {
+        padding-top: 130%;
+    }
+}
+
+@media (max-width: 992px) {
+    .loan-box:hover {
+        padding-top: 140%;
+    }
+}
+
+@media (max-width: 768px) {
+    .loan-box {
+        padding-top: 100%;
+    }
+    
+    .loan-box:hover {
+        padding-top: 120%;
+    }
+    
+    .loan-img {
+        max-width: 50%;
+        max-height: 50%;
+    }
+    
+    .loan-box:hover .loan-img {
+        max-width: 40%;
+        max-height: 40%;
+    }
+    
+    .loan-title p {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 576px) {
+    .loan-box {
+        padding-top: 100%;
+    }
+    
+    .loan-box:hover {
+        padding-top: 130%;
+    }
+    
+    .loan-img {
+        max-width: 60%;
+        max-height: 60%;
+    }
+    
+    .loan-box:hover .loan-img {
+        max-width: 50%;
+        max-height: 50%;
+    }
+    
+    .loan-title p {
+        font-size: 0.8em;
+    }
+}
+
+/* ... (rest of the CSS remains the same) */
+
+@media (max-width: 576px) {
+    .loan-box {
+        padding-top: 100%;
+    }
+    
+    .loan-box:hover {
+        padding-top: 130%;
+    }
+    
+    .loan-img {
+        max-width: 60%;
+        max-height: 60%;
+    }
+    
+    .loan-box:hover .loan-img {
+        max-width: 50%;
+        max-height: 50%;
+    }
+   
+
+}
+.input-group-text {
+    background-color: #f8f9fa;
+    border-right: none;
+}
+
+.inpuformloan {
+    border-left: none;
+}
+
+.inpuformloan:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+}
+
+.input-group:focus-within .input-group-text {
+    border-color: #80bdff;
+}
+
+.input-group:focus-within .inpuformloan {
+    border-color: #80bdff;
+}
+
+@media (max-width: 768px) {
+    .input-group-text {
+        font-size: 0.9rem;
+    }
+    
+    .inpuformloan {
+        font-size: 0.9rem;
+    }
+}

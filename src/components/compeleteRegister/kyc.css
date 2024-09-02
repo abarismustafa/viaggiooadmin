@@ -1,0 +1,9 @@
+/* Daud Code css */
+.not-allowed {
+    pointer-events: auto! important;
+    cursor: not-allowed! important;
+    color: red;
+}
+.editBox{
+    margin-top:23px !important;
+}

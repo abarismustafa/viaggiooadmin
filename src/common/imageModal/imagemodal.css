@@ -1,0 +1,26 @@
+.custom-image-modal-dialog {
+    max-width: 90vw !important;
+    width: fit-content !important;
+}
+
+.custom-image-modal-body {
+    padding: 0;
+}
+
+.custom-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+.custom-modal-image {
+    max-width: 100%;
+    max-height: 80vh;
+    object-fit: contain;
+}
+
+.custom-image-loading {
+    font-size: 1.2rem;
+    color: #666;
+}

@@ -1,0 +1,91 @@
+.tipin-modal .modal-content {
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.tipin-content {
+    padding: 30px;
+    text-align: center;
+}
+
+.tipin-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.amount-display {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.amount-display span {
+    font-size: 14px;
+    color: #666;
+}
+
+.amount-display strong {
+    font-size: 18px;
+    color: #28a745;
+    margin-left: 5px;
+}
+
+.otp-input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.otp-input {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin: 0 5px;
+    transition: border-color 0.3s;
+}
+
+.otp-input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover:not(:disabled) {
+    background-color: #0056b3;
+}
+
+.submit-btn:disabled {
+    background-color: #b3d7ff;
+    cursor: not-allowed;
+}
+
+@media (max-width: 576px) {
+    .tipin-content {
+        padding: 20px;
+    }
+
+    .otp-input {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+}

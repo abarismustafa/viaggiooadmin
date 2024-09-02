@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.tds_sec {
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+.white_bg {
+  background-color: #fff;
+  border: 1px solid #d4d5d5;
+  border-radius: 4px;
+  border-bottom: 3px solid #cacbcb;
+  margin-bottom: 15px;
+  padding: 30px;
+}
+.white_bg h4 {
+  text-align: center;
+  padding: 15px 0;
+  margin-bottom: 20px;
+  font-weight: 700;
+  position: relative;
+  font-size: 22px;
+}
+.white_bg h4:after {
+  position: absolute;
+  content: "";
+  width: 130px;
+  left: 50%;
+  bottom: 0;
+  margin-left: -60px;
+  height: 3px;
+  background: #0076ac;
+}
+.table_data {
+  text-align: center;
+}
+.table_data table thead tr td {
+  padding: 15px 10px;
+  font-size: 15px;
+  font-weight: 700;
+  border-top: 1px solid #989898 !important;
+  border-bottom: 1px solid #989898;
+}
+.table_data table tbody tr:last-child td {
+  font-weight: bold;
+  border-top: 1px solid #989898 !important;
+  border-bottom: 1px solid #989898;
+}
+.table_data table tbody tr td:last-child {
+  border-right: none;
+}
+.table > tbody > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+p {
+  margin: 0 0 10px;
+  font-size: 15px;
+  font-weight: 500;
+}

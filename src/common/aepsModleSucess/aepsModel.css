@@ -1,0 +1,100 @@
+.success-message {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 10px;
+    /* font-size: 1.5em; */
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInUp 1s forwards;
+    justify-content: center;
+
+
+    border-radius: 100%;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+}
+
+.success-message .icon {
+    font-size: 2em;
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+.success-message p {
+    margin: 0px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.headList {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headList .size-change {
+    font-weight: 600;
+}
+
+.headList .colo-change {
+    color: #2ec733;
+}
+
+@-webkit-keyframes blinker {
+    from {
+        opacity: 1.0;
+    }
+
+    to {
+        opacity: 0.0;
+    }
+}
+
+.blink {
+    text-decoration: blink;
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 0.6s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-direction: alternate;
+}
+
+.success-messagee {
+    width: 141px;
+    height: 141px;
+    margin: auto;
+}
+
+.btn-section-success p {
+    text-align: center;
+    color: #2ec733;
+}
+
+.btn-set {
+    width: 467px;
+    margin: auto;
+}
+
+.btn-set button {
+    width: 200px;
+    margin: 0px 15px;
+
+}

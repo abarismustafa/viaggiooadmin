@@ -1,0 +1,72 @@
+.invoice-layout {
+    background-color: #f0f2f5;
+    min-height: 100vh;
+  }
+  
+  .invoice-header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  }
+  
+  .logo {
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+  .invoice-title {
+    margin: 0;
+    color: #1890ff;
+  }
+  
+  .invoice-content {
+    padding: 24px;
+  }
+  
+  .invoice-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  }
+  
+  .invoice-summary, .invoice-details {
+    margin-bottom: 24px;
+  }
+  
+  .summary-item, .detail-item {
+    margin-bottom: 8px;
+  }
+  
+  .status {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .status.success {
+    color: #52c41a;
+  }
+  
+  .status.failed {
+    color: #f5222d;
+  }
+  
+  .amount {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1890ff;
+    margin-left: 8px;
+  }
+  
+  .invoice-total {
+    background-color: #f6f8fa;
+    padding: 16px;
+    border-radius: 4px;
+  }
+  
+  .invoice-footer {
+    text-align: center;
+    background-color: #fff;
+    padding: 24px;
+  }

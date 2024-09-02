@@ -1,0 +1,257 @@
+.heading-02 {
+    font-weight: 500;
+    display: block;
+    color: #2d2383;
+    padding: 5px;
+    border-radius: 2px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.heading-02-wrap {
+    border: 1px solid #eaeaea;
+    margin-bottom: 10px;
+    padding: 5px;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.heading-02-wrap h4 {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #2d2383;
+}
+
+.heading-02-wrap ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.heading-02-wrap ul li {
+    cursor: pointer;
+    font-size: 12px !important;
+    margin-bottom: 0;
+    width: 25%;
+    float: left;
+    text-align: center;
+    background: #f4f0f0;
+    border: 1px solid #dad9d9;
+    height: 78px;
+}
+
+.heading-02-wrap ul li img {
+    width: 22px;
+    margin: 5px auto;
+    display: block;
+    position: relative;
+}
+
+.heading-02-wrap ul li label,
+.top-search-myaccount-card,
+a#sidebarCollapse {
+    cursor: pointer;
+}
+
+.heading-02 {
+    font-weight: 500;
+    display: block;
+    color: #2d2383;
+    padding: 5px;
+    border-radius: 2px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.right-sorting-wrap {
+    margin-top: 10px;
+}
+
+.right-sorting-wrap label {
+    width: 14%;
+
+}
+
+.right-sorting-wrap label {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    /* cursor: pointer; */
+}
+
+.search-result-card {
+    padding: 5px;
+}
+
+.search-result-card {
+    border: 1px solid transparent;
+    margin: 0 0 10px;
+    padding: 10px;
+    min-height: 75px;
+    transition: 0.5s;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    /* width: 28%; */
+}
+
+.SearchCard label {
+    font-size: 16px !important;
+    font-weight: 400;
+    margin: 0;
+}
+
+.SearchCard p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #666;
+}
+
+.SearchCard02 {
+    width: 11%;
+    text-align: center;
+}
+
+.search-result-card {
+    border: 1px solid transparent;
+    margin: 0 0 10px;
+    padding: 10px;
+    min-height: 75px;
+    transition: 0.5s;
+}
+
+.details-set {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.operator-set {
+    width: 15%;
+}
+
+.set-headd {
+    display: flex;
+    align-items: center;
+}
+
+.operator-sett .set-p a {
+    font-size: 13px;
+    border-radius: 2px;
+    font-weight: 500;
+    border: 1px solid #dad9d9;
+    background: #dad9d9;
+    padding: 5px;
+    color: #3662b6;
+    margin-top: 10px 5px;
+
+}
+
+.operator-sett .set-p {
+    margin: 10px 5px;
+
+}
+
+.but-sec {
+    display: flex;
+    justify-content: end;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+    text-align: left;
+}
+
+.table-bordered th {
+    background-color: #f2f2f2;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.Seat-left-wrap {
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #dee2e6;
+}
+
+.seat-lower-wrap {
+    margin: 0 1%;
+    width: 48%;
+    display: inline-block;
+    max-width: 250px;
+}
+
+.seat-lower-wrap h5 {
+    font-weight: 400;
+    font-size: 16px !important;
+}
+
+.lower-deck-wrap {
+    background: #f4f0f0;
+    border-top: 2px solid #397ac6;
+    padding: 10px;
+}
+
+.lower-deck-topwrap {
+    text-align: right;
+    padding: 0 0 5px;
+    border-bottom: 1px solid #bcbec1;
+    margin-bottom: 10px;
+    min-height: 30px;
+}
+
+.lowerdeck-seat-wrap {
+    width: 18%;
+    display: inline-block;
+    max-width: 24px;
+    margin: 3%;
+    vertical-align: top;
+}
+
+.lowerdeck-seat-wrap .Sleeper_V {
+
+    background-image: url('/src/asesets/travel/Sleeper_V.png');
+    background-size: cover;
+    /* Adjusts the size of the background image */
+    background-position: center;
+    /* Centers the background image */
+    background-repeat: no-repeat;
+
+}
+
+.lowerdeck-seat-wrap span {
+    cursor: pointer;
+    display: inline-block;
+    width: 24px;
+    height: 46px;
+    margin-bottom: 10px;
+}
+
+.set-form-row {
+    background-color: #2d2383;
+    margin-bottom: 20px;
+}
+
+.set-form-row .form-group label {
+    color: #fff;
+}
+
+.form-group-form-group button {
+    width: 100%;
+    padding: 8px;
+}

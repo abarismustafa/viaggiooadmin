@@ -1,0 +1,28 @@
+.modle-logo {
+    width: 100%;
+}
+
+.modle-logo svg {
+    width: 200px;
+}
+
+.modle-form form .btn-primary {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 25%;
+    width: 100%;
+}
+
+.left {
+    padding: 20px 30px;
+}
+
+.right {
+    width: 100%;
+}
+
+.right img {
+    height: 400px;
+    width: 100%;
+}

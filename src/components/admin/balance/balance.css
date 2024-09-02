@@ -1,0 +1,72 @@
+.wrapper{
+    max-width: 1100px;
+    margin: 20px auto;
+}
+.wrapper .filter_wrapper{
+    width: 100%;
+    background-color: #FFF;
+    border: 1px solid #d4d5d5;
+    border-radius: 4px;
+    border-bottom: 3px solid #cacbcb;
+    margin-bottom: 15px;
+    padding: 30px;
+}
+.wrapper .filter_wrapper h1{
+    text-align: center;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    font-weight: 700;
+    position: relative;
+}
+.wrapper .filter_wrapper h1::before{
+    position: absolute;
+    content: '';
+    width: 120px;
+    left: 50%;
+    bottom: 0;
+    margin-left: -60px;
+    height: 3px;
+    background: #0076ac;
+}
+.btns{
+    margin-top: 15px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.btns li{
+    display: flex;
+    gap:10px;
+}
+.btns li button{
+    padding: 8px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+}
+.btns li button.eng{
+    background-color: #398439;
+    border-color: #255625;
+}
+.btns li button.eng:hover{
+    background-color: #1d5e1d;
+    border-color: #1d5e1d;
+}
+.btns li button.hind{
+    background: #b60000;
+    border-color: #b60000;
+}
+.btns li button.hind:hover{
+    background: #810000;
+    border-color: #810000;
+}
+.btns li button.upload{
+    background: #b4b400;
+    border-color: #b4b400;
+}
+.btns li button.upload{
+    background: #777700;
+    border-color: #777700;
+}

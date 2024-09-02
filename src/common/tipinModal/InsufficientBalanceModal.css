@@ -1,0 +1,37 @@
+.insufficient-balance-modal .modal-content {
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  }
+  
+  .insufficient-balance-modal-header {
+    background-color: #f8d7da;
+    color: #721c24;
+    border-bottom: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .insufficient-balance-modal-body {
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .insufficient-balance-modal-footer {
+    border-top: none;
+    justify-content: center;
+  }
+  
+  .insufficient-balance-modal-button {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .insufficient-balance-modal-button:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+  }

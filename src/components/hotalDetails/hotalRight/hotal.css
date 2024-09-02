@@ -1,0 +1,268 @@
+.hotal-head h4 span svg {
+    color: yellow;
+    font-size: 22px !important;
+    margin-bottom: 8px;
+    /* background-color: yellow; */
+}
+
+.hotal-head h4 {
+    font-size: 22px !important;
+    font-weight: 700;
+}
+
+.hotal-head p span svg {
+    font-size: 22px !important;
+    color: blue;
+}
+
+.slider-details-hotal .slick-next {
+    display: block !important;
+
+}
+
+.slider-details-hotal .slick-next:before,
+.slick-prev:before {
+    color: #130f0f !important;
+}
+
+.slider-details-hotal .slick-next:before,
+.slick-prev:before {
+    font-size: 40px !important;
+}
+
+.slider-details-hotal .slick-prev {
+    left: 5px !important;
+    z-index: 111;
+}
+
+.slider-details-hotal .slick-next {
+    right: 25px !important;
+}
+
+.height-fix {
+    height: 133px;
+}
+
+.card-set .card-head {
+    background: #ddebf0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.slider-details-hotal .slick-list .slick-track>.hotal-img img {
+    border-radius: 10px;
+}
+
+.set-category {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.set-category p {
+    font-size: 14px !important;
+}
+
+.set-category-2 p {
+    font-weight: 800;
+    font-size: 16px !important;
+}
+
+.card-head .true-price {
+    font-weight: 800;
+    font-size: 16px !important;
+    color: blue;
+}
+
+.btn-bllue {
+    background-color: #06426c;
+    padding: 8px;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn-bllue:hover {
+    background-color: #096c06;
+    color: #fff;
+}
+
+.set-check {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #06426c;
+    border-radius: 10px;
+    padding: 23px;
+    margin-top: 8px;
+    background-color: #f4f0f0;
+}
+
+.heading-room .set-linkrom {
+    background-color: #06426c;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.heading-room {
+    padding: 16px;
+    border: 1px solid #06426c;
+    border-radius: 10px;
+}
+
+.left-side-detsils {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.left-side-detsils .left-side-detsils-heas {
+    padding: 10px;
+    background-color: #06426c;
+    color: #fff;
+}
+
+.over-view .left-side-detsils-heas {
+    padding: 10px;
+    background-color: #06426c;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.content-setlest {
+    padding: 10px;
+}
+
+.content-setlest h5 {
+    font-weight: 800;
+    color: #06426c;
+    text-align: center;
+}
+
+.res-res-details p span svg {
+    font-size: 24px !important;
+    color: #06426c;
+    margin-bottom: 4px;
+}
+
+.res-res-details p {
+    font-size: 18px !important;
+}
+
+.res-res-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-set a {
+    color: #06426c;
+    text-decoration: none;
+}
+
+.room-detailss .left-side-detsils-heas {
+    padding: 10px;
+    background-color: #06426c;
+    color: #fff;
+}
+
+.room-detailss {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.contect-room-setted {
+    padding: 10px;
+}
+
+.contect-room-setted-set {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-blluee {
+    background-color: #06426c;
+    padding: 10px;
+    color: #fff;
+}
+
+.contect-room-setted-set {
+    border-bottom: 1px solid #06426c;
+    padding-bottom: 30px;
+}
+
+.demaonf {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.res-res-details p {
+    margin-bottom: 0px;
+}
+
+.demaonf {
+    margin-top: 34px;
+}
+
+.slider-details-hotal .hotal-img {
+    overflow: hidden;
+}
+
+.slider-details-hotal .hotal-img img {
+    transition: transform 0.5s ease;
+    width: 100%;
+}
+
+.slider-details-hotal .hotal-img:hover img {
+    transform: scale(1.1);
+}
+
+.slider-details-hotal {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    /* Adjust as needed */
+    margin: 0 auto;
+}
+
+.hotal-img-container {
+    position: relative;
+}
+
+.side-image-preview img {
+    display: none;
+    /* Hide this if not needed */
+}
+
+.img-container img {
+    border-radius: 10px;
+}
+
+.height-fix img {
+    border-radius: 10px;
+}
+
+
+.slider-details-hotal {
+    position: relative;
+    width: 100%;
+}
+
+.img-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.zoom-container {
+    position: relative;
+    width: 100%;
+}
+
+.zoom-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}

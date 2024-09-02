@@ -1,0 +1,143 @@
+.wrapper{
+    max-width: 1100px;
+    margin: 20px auto;
+}
+.wrapper .filter_wrapper{
+    width: 100%;
+    background-color: #FFF;
+    border: 1px solid #d4d5d5;
+    border-radius: 4px;
+    border-bottom: 3px solid #cacbcb;
+    margin-bottom: 15px;
+    padding: 30px;
+}
+.wrapper .filter_wrapper h1{
+    text-align: center;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    font-weight: 700;
+    position: relative;
+}
+.wrapper .filter_wrapper h1::before{
+    position: absolute;
+    content: '';
+    width: 120px;
+    left: 50%;
+    bottom: 0;
+    margin-left: -60px;
+    height: 3px;
+    background: #0076ac;
+}
+.wrapper .month_selecter{
+    display: flex;
+    gap: 50px;
+}
+.wrapper .month_selecter .btn{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    display: flex;
+    width: 38px;
+    height: 34px;
+    margin-bottom: 0;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 4px;
+}
+.selector_wrap{
+    width: 340px;
+    height: 34px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: relative;
+}
+.selector_wrap .selector{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 5px 10px; 
+}
+.selector_wrap .selector span{
+    color: #acaaaa;
+    text-transform: uppercase;
+}
+.month{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 0px 0px 8px 8px;
+    text-align: left;
+    padding: 10px;
+    background: #fff;
+    height: 300px;
+    overflow-y: scroll;
+   position: absolute;
+   z-index: 99;
+}
+.month div input{
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 34px;
+    margin-bottom: 15px;
+}
+.month ul li{
+    font-size: 15px;
+    color: #797979;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    padding: 5px;
+}
+.month ul li:hover{
+    background: #0076ac;
+    color: #fff;
+}
+.block{
+    display: block;
+}
+.hidden{
+    display: none;
+}
+.earned{
+    display: flex;
+}
+.wrapper .filter_wrapper .earned h1{
+    width: 58%;
+    justify-content: right;
+    text-align: end;
+}
+.wrapper .filter_wrapper .earned h1::before{
+    left: 100%;
+    margin-left: -120px;
+}
+.earned button{
+    width: 120px;
+    height: 34px;
+    margin-left:auto ;
+    background: #0076ac;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    color: #fff;
+}
+.amontlist{
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+}
+.amontlist li{
+    flex: 1;
+    border-right: 1px dotted #ccc;
+    padding: 15px 0px;
+    font-size: 17px ;
+    font-weight: 600;
+}
+.amontlist li:last-child{
+    border: none;
+}
+.amontlist li:nth-child(2) , .amontlist li:last-child{
+    width: 75%;
+}

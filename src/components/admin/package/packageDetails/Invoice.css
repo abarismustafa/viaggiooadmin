@@ -1,0 +1,75 @@
+.invoice-card {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+}
+
+.invoice-title {
+    color: #2c3e50;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.company-name {
+    color: #3498db;
+    font-size: 1.2em;
+}
+
+.address {
+    color: #7f8c8d;
+    font-size: 0.9em;
+}
+
+.info-value {
+    color: #2980b9;
+    font-weight: bold;
+}
+
+.invoice-table {
+    margin-top: 20px;
+}
+
+.invoice-table thead {
+    background-color: #ecf0f1;
+}
+
+.invoice-table th {
+    color: #34495e;
+}
+
+.invoice-table td, .invoice-table th {
+    vertical-align: middle;
+}
+
+.total-row {
+    background-color: #f2f2f2;
+}
+
+.amount-in-words {
+    color: #16a085;
+    font-style: italic;
+}
+
+.digital-signature {
+    color: #95a5a6;
+    font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+    .invoice-card {
+        margin: 10px;
+    }
+    
+    .invoice-title {
+        font-size: 1.5em;
+    }
+    
+    .company-name {
+        font-size: 1em;
+    }
+    
+    .address, .info-value {
+        font-size: 0.8em;
+    }
+}

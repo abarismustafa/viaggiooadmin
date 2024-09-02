@@ -1,0 +1,85 @@
+.aeps-pin-modal .modal-content {
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .aeps-pin-modal .modal-header {
+    background-color: #f8f9fa;
+    border-bottom: none;
+    padding: 20px 30px;
+  }
+  
+  .aeps-pin-modal .modal-body {
+    padding: 30px;
+  }
+  
+  .aeps-pin-modal .modal-footer {
+    border-top: none;
+    padding: 20px 30px;
+  }
+  
+  .transaction-details {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .transaction-details h4 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .detail-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .detail-row span {
+    color: #666;
+  }
+  
+  .detail-row strong {
+    color: #333;
+  }
+  
+  .otp-input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .otp-input-group input {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: all 0.2s ease-in-out;
+    outline: none;
+  }
+  
+  .otp-input-group input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .otp-input-group input:hover {
+    border-color: #007bff;
+  }
+  
+  .otp-input-group input:last-child {
+    margin-right: 0;
+  }
+  
+  @media (max-width: 576px) {
+    .otp-input-group input {
+      width: 40px;
+      height: 40px;
+      font-size: 20px;
+    }
+  }
+  

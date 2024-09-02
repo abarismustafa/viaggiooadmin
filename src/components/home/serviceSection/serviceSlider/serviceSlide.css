@@ -1,0 +1,14 @@
+.first-slide .item {
+    height: 100%;
+}
+
+.first-slide .item .services-inner {
+    text-decoration: none;
+    text-align: center;
+    padding: 40px 25px 40px;
+    margin: 0 20px;
+    display: block;
+    height: 100%;
+    border-radius: 4px;
+    transition: all 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}

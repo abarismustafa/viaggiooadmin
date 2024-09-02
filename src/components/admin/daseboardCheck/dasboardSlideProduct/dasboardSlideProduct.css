@@ -1,0 +1,66 @@
+.prodc {
+    background-color: #2e3191;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 100px / 120px;
+    color: #ffff;
+}
+
+.moobile svg {
+    font-size: 35px;
+    color: #ffff;
+}
+
+.nameDivice {
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 6px;
+}
+
+.product a {
+    color: none;
+    text-decoration: none;
+}
+
+.product {
+    padding: 0px 10px;
+}
+
+.slider-container-2 {
+    padding: 15px 0px;
+}
+
+.nameDivice-ripay {
+    font-size: 12px !important;
+}
+
+/* .slider-container-2 .slick-slider .slick-prev {
+    display: none !important;
+} */
+/* .slider-container-2 .slick-arrow {
+    height: 30px;
+    width: 30px;
+    background: red;
+}
+
+.slider-container-2 .slick-arrow.slick-prev:before {
+    content: "\f053";
+    font-family: "Font Awesome 5 Free";
+} */
+
+.slider-container-2 .slick-slider .slick-next {
+    right: 12px;
+}
+
+.slider-container-2 .slick-slider .slick-prev {
+
+    left: -13px;
+    top: 39%;
+    z-index: 11;
+}
+
+.slider-container-2 .slick-slider .slick-next:before,
+.slider-container-2 .slick-slider .slick-prev:before {
+    color: #4d9d10;
+    font-size: 40px;
+}

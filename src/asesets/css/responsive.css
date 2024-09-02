@@ -1,0 +1,442 @@
+/* .GridUi {
+    overflow-x: auto
+} */
+
+@media only screen and (max-width: 1279px) {
+    header.HeaderMain .logo {
+        width: 220px
+    }
+
+    .LayoutMain .BodyArea .SidebarMain {
+        width: 220px
+    }
+
+    .top-services .service-block {
+        padding: 10px 10px
+    }
+
+    .top-services .service-block i {
+        width: 60px;
+        height: 60px
+    }
+
+    .top-services .service-block i svg {
+        width: 30px;
+        height: 30px
+    }
+
+    .top-services .service-block .srv-cnt {
+        margin-left: 8px
+    }
+
+    .top-services .service-block .srv-cnt h3 {
+        font-size: 18px
+    }
+
+    .top-services .service-block .srv-cnt h5 {
+        font-size: 12px
+    }
+
+    #ServicesTab.nav-tabs .nav-item {
+        width: 16.5%;
+        flex-basis: auto;
+        flex-grow: inherit
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .top-services .service-block {
+        padding: 10px 8px
+    }
+
+    .top-services .service-block i {
+        width: 50px;
+        height: 50px
+    }
+
+    .top-services .service-block .srv-cnt {
+        margin-left: 8px
+    }
+
+    .top-services .service-block .srv-cnt h3 {
+        font-size: 18px
+    }
+
+    .top-services .service-block .srv-cnt h5 {
+        font-size: 12px
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    /* .top-services {
+        align-items: stretch;
+        height: 100%
+    } */
+
+    .top-services .service-block {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center
+    }
+
+    .top-services .service-block .srv-cnt {
+        margin-left: 0;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column
+    }
+
+    #ServicesTab.nav-tabs .nav-item {
+        width: 25%
+    }
+
+    .UserWallet i {
+        display: none
+    }
+
+    .UserWallet .WalletDetails h3,
+    .UserWallet .WalletDetails h2 {
+        white-space: nowrap !important
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .BannerSlider {
+        padding: 20px 20px 0px 20px !important
+    }
+
+    h2.SecTitle {
+        margin-bottom: 15px
+    }
+
+    .mobileTopSpacing {
+        margin-top: 25px
+    }
+
+    header.HeaderMain .logo {
+        display: flex;
+        flex-direction: row;
+        width: 240px
+    }
+
+    header.HeaderMain .logo a svg {
+        width: 180px
+    }
+
+    header.HeaderMain .logo .SidebarTriggerMobile {
+        margin-top: 0;
+        display: inline-flex;
+        width: auto;
+        margin-right: 10px
+    }
+
+    header.HeaderMain .logo .SidebarTriggerMobile svg {
+        width: 23px !important;
+        height: 23px !important
+    }
+
+    header.HeaderMain .logo .SidebarTriggerMobile svg path {
+        fill: #fff
+    }
+
+    .loadwallet .WalletDetails h3 {
+        white-space: pre-wrap !important;
+        text-align: center
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .BannerSlider {
+        padding: 20px 15px 0px 15px !important
+    }
+
+    header.HeaderMain {
+        flex-direction: column;
+        height: auto !important
+    }
+
+    header.HeaderMain .logo {
+        width: 100%;
+        justify-content: space-between;
+        padding: 5px 15px;
+        height: 50px;
+        position: fixed;
+        z-index: 990
+    }
+
+    header.HeaderMain .logo a svg {
+        width: 100px;
+        height: 40px
+    }
+
+    header.HeaderMain .logo .SidebarTriggerMobile {
+        margin-right: 0
+    }
+
+    header.HeaderMain .HeaderContainer {
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 0;
+        margin-top: 50px
+    }
+
+    header.HeaderMain .HeaderContainer>.UserDetails .UserDropdown {
+        top: 15px !important
+    }
+
+    header.HeaderMain .HeaderContainer>.UserDetails .UserDropdown ul:before {
+        left: 10px !important;
+        right: auto
+    }
+
+    header.HeaderMain .HeaderContainer .HeaderRight {
+        display: flex;
+        padding-right: 15px
+    }
+
+    header.HeaderMain .HeaderContainer .HeaderRight .loadwallet .walletDropdown {
+        min-width: 160px !important
+    }
+
+    header.HeaderMain .HeaderContainer .HeaderRight .loadwallet .walletDropdown ul li a {
+        padding: 10px 10px !important;
+        font-size: 13px
+    }
+
+    header.HeaderMain .HeaderContainer .HeaderRight .loadwallet .walletDropdown ul li a i {
+        width: 23px
+    }
+
+    header.HeaderMain .HeaderContainer .HeaderRight .RightActions .NotificationsMain a.PendingIc::before {
+        top: 0
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .top-services {
+        flex-wrap: wrap;
+        margin-left: -5px;
+        margin-right: -5px
+    }
+
+    .top-services .service-block {
+        flex: auto;
+        width: 45%;
+        margin: 5px !important
+    }
+
+    #ServicesTab.nav-tabs .nav-item {
+        width: 33.33%
+    }
+
+    header.HeaderMain .HeaderContainer .HeaderRight .UserWallet {
+        padding: 5px 6px
+    }
+
+    header.HeaderMain .HeaderContainer .HeaderRight .UserWallet .WalletDetails h3 {
+        font-size: 7px !important;
+        white-space: pre-wrap !important
+    }
+
+    header.HeaderMain .HeaderContainer .HeaderRight .UserWallet .WalletDetails h2 {
+        font-size: 16px;
+        font-weight: 500
+    }
+
+    header.HeaderMain .HeaderContainer .HeaderRight .loadwallet {
+        margin-left: 6px !important
+    }
+
+    .loadwallet {
+        display: none !important;
+    }
+
+    .nav-link {
+        padding: 2px 2px;
+    }
+
+    .content {
+        position: relative;
+        z-index: 1;
+        /* Ensure content is above overlay */
+        background-color: white;
+        padding: 20px;
+    }
+
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        /* Semi-transparent black */
+        z-index: 4;
+        /* Set below content */
+    }
+
+    .mCustomScrollbar {
+        z-index: 1;
+    }
+
+    .mCustomScrollbar {
+        position: absolute !important;
+        top: 121px;
+    }
+
+    header.HeaderMain .HeaderContainer {
+        width: 100%;
+    }
+
+    #ServicesTab {
+        flex-wrap: wrap;
+    }
+
+    .link-main .nav-Item-sec {
+        padding: 0px 5px;
+    }
+
+    .LayoutMain .BodyArea .ContainerMain .ContentArea {
+        padding: 9px;
+    }
+
+    .card-body {
+        margin: 0px !important;
+    }
+
+    .link-main .nav-Item-sec a span {
+        font-size: 10px !important;
+    }
+
+    .ContainerMain {
+        padding: 10px 0 !important;
+    }
+
+    .link-main .nav-Item-sec {
+        /* width: 33.33%; */
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .buttonArea {
+        display: flex;
+        align-items: center;
+    }
+
+    .login-area-sec {
+        width: auto;
+    }
+
+    .email-mobile-tab {
+        display: block;
+    }
+
+    .email-mobile-tab .mobileitab {
+        width: auto;
+        margin-right: 0px !important;
+        margin-bottom: 5px;
+        width: auto;
+        margin-right: 0px !important;
+        margin-bottom: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        padding-left: 15%;
+    }
+
+    .firstFor {
+        width: auto;
+    }
+
+    .Beneficiary-List {
+        margin-top: 10px;
+    }
+
+    .modal-dialog-modal .modal-dialog {
+        width: 97% !important;
+    }
+
+    .modalNotExit .modal-dialog {
+        width: 97%;
+    }
+
+    .dilog-classs {
+        width: 92% !important;
+    }
+
+    .total-txn {
+        margin-bottom: 15px;
+        padding: 30px;
+    }
+
+    .bussnes-data {
+        margin-top: 10px;
+    }
+
+    .bussnes-data-red {
+        margin-top: 10px;
+    }
+
+    .bussnes-data-yellow {
+        margin-top: 10px;
+    }
+
+    .right-side-section {
+        float: none;
+    }
+
+    .container-login100 {
+        display: block;
+    }
+
+    .login-area-sec {
+        padding: 14px;
+    }
+
+    .input-group-2 input {
+        width: 12% !important;
+    }
+
+    .LayoutMain .BodyArea {
+        height: auto !important;
+    }
+
+    /* .BannerSlider .slick-slider {
+        width: 0px !important;
+    } */
+
+    /* .LayoutMain .BodyArea .SidebarMain {
+        margin-left: -220px;
+    } */
+}
+
+@media(max-width: 426px) {
+    .BeneficiaryHead {
+        display: block;
+        text-align: center;
+
+    }
+
+    .card-Details {
+        display: block !important;
+        text-align: center;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+
+    .login-area-sec{
+      margin-left: 7%;
+    }
+      
+  }
+  
+  
+  @media (min-width: 1025px) and (max-width: 1440px) {
+    .login-area-sec{
+        margin-top: 10%;
+    }
+  } 
+/*# sourceMappingURL=responsive.css.map */

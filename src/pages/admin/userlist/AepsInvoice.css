@@ -1,0 +1,117 @@
+.aeps-invoice-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.aeps-invoice {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.invoice-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.company-logo, .aeps-logo {
+    height: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.transaction-status {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.status-icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.status {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.success { color: #28a745; }
+.failed { color: #dc3545; }
+.pending { color: #ffc107; }
+
+.invoice-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.detail-column {
+    width: 48%;
+}
+
+.detail-item {
+    margin-bottom: 10px;
+}
+
+.label {
+    font-weight: bold;
+    color: #666;
+}
+
+.value {
+    display: block;
+    margin-top: 5px;
+}
+
+.amount {
+    font-weight: bold;
+    color: #28a745;
+}
+
+.utr-section {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.invoice-footer {
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}
+
+.download-btn {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #0056b3;
+}
+
+.loading {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    margin-top: 50px;
+}

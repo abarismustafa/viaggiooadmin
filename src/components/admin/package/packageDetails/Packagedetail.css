@@ -1,0 +1,464 @@
+.disabledpackedeailbtn{
+    background: #ccc !important;
+    cursor: not-allowed !important;
+}
+.otpbox22 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .otpbox22 input {
+    width: 40px !important;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .otpbox22 input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0,123,255,.25);
+  }
+  
+  .otpbox22 input::-webkit-inner-spin-button,
+  .otpbox22 input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .otpbox22 input[type=number] {
+    -moz-appearance: textfield;
+  }
+  .bpbs-modal .modal-content {
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bpbs-modal-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 1.5rem;
+  }
+  
+  .bpbs-modal-header .modal-title {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .bpbs-modal-body {
+    padding: 2rem;
+  }
+  
+  .bpbs-info-item {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .bpbs-info-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+  }
+  
+  .bpbs-info-value {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  .bpbs-tpin-label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #495057;
+  }
+  
+  .bpbs-tpin-input {
+    width: 3rem;
+    height: 3rem;
+    margin: 0 0.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 2px solid #ced4da;
+    border-radius: 8px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .bpbs-tpin-input:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .bpbs-pay-button {
+    min-width: 150px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  
+  .bpbs-pay-button:not(:disabled):hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .bpbs-info-item {
+      margin-bottom: 1.5rem;
+    }
+    
+    .bpbs-tpin-input {
+      width: 2.5rem;
+      height: 2.5rem;
+      font-size: 1.25rem;
+      margin: 0 0.25rem;
+    }
+  }
+  .pkg-congrats-modal .modal-content {
+    background-color: #1e3a8a;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .pkg-congrats-modal__body {
+    padding: 30px;
+    position: relative;
+  }
+  
+  .pkg-congrats-modal__close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    color: #ffffff;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .pkg-congrats-modal__content {
+    text-align: center;
+  }
+  
+  .pkg-congrats-modal__icon-container {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+  }
+  
+  .pkg-congrats-modal__icon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .pkg-congrats-modal__title {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .pkg-congrats-modal__message {
+    color: #e2e8f0;
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  
+  .pkg-congrats-modal__button {
+    background-color: #ffffff;
+    color: #1e3a8a;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+  }
+  
+  .pkg-congrats-modal__button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .pkg-congrats-modal__button:active {
+    transform: scale(0.98);
+  }
+  
+  @media (max-width: 480px) {
+    .pkg-congrats-modal .modal-content {
+      max-width: 90%;
+    }
+  
+    .pkg-congrats-modal__body {
+      padding: 20px;
+    }
+  
+    .pkg-congrats-modal__title {
+      font-size: 20px;
+    }
+  
+    .pkg-congrats-modal__message {
+      font-size: 14px;
+    }
+  
+    .pkg-congrats-modal__button {
+      font-size: 14px;
+      padding: 8px 24px;
+    }
+  }
+  .confirm-modal .modal-content {
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  }
+  
+  .confirm-modal__body {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .confirm-modal__close {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #999;
+    cursor: pointer;
+  }
+  
+  .confirm-modal__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .confirm-modal__icon {
+    margin-bottom: 20px;
+  }
+  
+  .confirm-modal__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .confirm-modal__message {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 25px;
+  }
+  
+  .confirm-modal__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .confirm-modal__button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .confirm-modal__button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  
+  @media (max-width: 576px) {
+    .confirm-modal__body {
+      padding: 20px;
+    }
+  
+    .confirm-modal__title {
+      font-size: 20px;
+    }
+  
+    .confirm-modal__message {
+      font-size: 16px;
+    }
+  
+    .confirm-modal__buttons {
+      flex-direction: column;
+    }
+  
+    .confirm-modal__button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+
+  /* // new moadl ui */
+  .pkg-details-modal .modal-content {
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .pkg-details-header {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: white;
+    padding: 1.5rem;
+    border-bottom: none;
+  }
+  
+  .pkg-details-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  
+  .pkg-details-body {
+    padding: 2rem;
+    background-color: #f8f9fa;
+  }
+  
+  .pkg-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .pkg-info-item {
+    background-color: white;
+    border-radius: 15px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+  }
+  
+  .pkg-info-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .pkg-info-label {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+  }
+  
+  .pkg-info-value {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #2575fc;
+  }
+  
+  .pkg-details-table {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .pkg-details-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .pkg-details-table th,
+  .pkg-details-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #e9ecef;
+  }
+  
+  .pkg-details-table tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .pkg-details-table .total-row {
+    background-color: #e9ecef;
+    font-weight: 700;
+  }
+  
+  .pkg-tpin-section {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .pkg-tpin-label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: 1rem;
+  }
+  
+  .pkg-tpin-inputs {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .pkg-tpin-input {
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    font-size: 1.25rem;
+    border: 2px solid #ced4da;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .pkg-tpin-input:focus {
+    border-color: #2575fc;
+    box-shadow: 0 0 0 3px rgba(37, 117, 252, 0.25);
+  }
+  
+  .pkg-pay-button {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  
+  .pkg-pay-button:not(:disabled):hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pkg-pay-button:disabled {
+    background: #ced4da;
+    cursor: not-allowed;
+  }
+  
+  @media (max-width: 768px) {
+    .pkg-details-body {
+      padding: 1.5rem;
+    }
+  
+    .pkg-info-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .pkg-tpin-input {
+      width: 2.5rem;
+      height: 2.5rem;
+      font-size: 1rem;
+    }
+  }
