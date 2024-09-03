@@ -163,6 +163,11 @@ import MyBookingCalenderListPage from './pages/viaggioWebPages/myBookingCalender
 import MyAmendmentsListPage from './pages/viaggioWebPages/myAmendmentsListPage';
 import MyCancellationPage from './pages/viaggioWebPages/myCancellationsPage';
 import MyRefundsPage from './pages/viaggioWebPages/myRefundsPage';
+import GroupRequestListPage from './pages/viaggioWebPages/visa/groupRequest';
+import VisaMyBookingsListPage from './pages/viaggioWebPages/visa/myBookings';
+import VisaAmendmentsListPage from './pages/viaggioWebPages/visa/visaAmendments';
+import VisaCancellationsPage from './pages/viaggioWebPages/visa/visaCancellations';
+import VisaMyRefundsPage from './pages/viaggioWebPages/visa/visaMyRefunds';
 
 function App() {
   const [isLogin, setislogin] = useState(window.localStorage.getItem('login'))
@@ -705,6 +710,14 @@ function App() {
           <Route path="/hotel/my-amendments" element={<MyAmendmentsListPage />} />
           <Route path="/hotel/hotel-cancellations" element={<MyCancellationPage />} />
           <Route path="/hotel/hotel-refunds" element={<MyRefundsPage />} />
+
+
+          <Route path="/visa/group-request" element={<GroupRequestListPage />} />
+          <Route path="/visa/my-bookings" element={<VisaMyBookingsListPage />} />
+          <Route path="/visa/amendments" element={<VisaAmendmentsListPage />} />
+          <Route path="/visa/my-cancellations" element={<VisaCancellationsPage />} />
+          <Route path="/visa/my-refunds" element={<VisaMyRefundsPage />} />
+          
           
           
         

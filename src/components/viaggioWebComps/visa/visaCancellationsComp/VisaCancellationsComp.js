@@ -1,12 +1,12 @@
 import { Pagination } from 'antd'
 import React from 'react'
 
-function MyAmendmentListComp() {
+function VisaCancellationsComp() {
   return (
     <>
     {/* {loading && <Loader />} */}
     <div className="PageHeading">
-        <h1>Hotel Amendments List</h1>
+        <h1>Visa Booking List</h1>
     </div>
     <div className="ContentArea">
         <div className="card">
@@ -43,7 +43,25 @@ function MyAmendmentListComp() {
                             <input type="date" name="start_date" id="account_no" className="form-control" />
                         </div>
 
-                       
+                        <div className="form-group col-md-4">
+                            <label htmlFor="txtUserId">Payment Status</label>
+                            <select class="form-select" name="type" value={'filterInitial.type'} onChange={'handleChange'}>
+                                <option selected>Please Select</option>
+                                <option value="all">First Name</option>
+                                <option value="credit">Last Name</option>
+                                <option value="debit">Booking Ref No</option>
+                            </select>
+                        </div>
+
+                        <div className="form-group col-md-4">
+                            <label htmlFor="txtUserId">Booking Status</label>
+                            <select class="form-select" name="type" value={'filterInitial.type'} onChange={'handleChange'}>
+                                <option selected>Please Select</option>
+                                <option value="all">First Name</option>
+                                <option value="credit">Last Name</option>
+                                <option value="debit">Booking Ref No</option>
+                            </select>
+                        </div>
 
                         <div className="form-group col-md-2">
                             <label>&nbsp;</label>
@@ -69,22 +87,17 @@ function MyAmendmentListComp() {
                                 <th className="sorting">
                                     S.No
                                 </th>
-                                <th className="sorting">Booking Reference Number</th>
-                                <th className="sorting">Amendment Id</th>
+                                <th className="sorting">Reference Number</th>
+                                <th className="sorting">	Visa Country</th>
                                 <th className="sorting">
-                                Amendment Type
+                                Visa Type
                                 </th>
-                                <th className="sorting" >Amendment Status</th>
-                                <th className="sorting" >Hotel Name</th>
-                                <th className="sorting" >Traveller Name	</th>
-                                <th className="sorting" >Checkin Date</th>
-                                <th className="sorting" >Check Out Date</th>
-                                <th className="sorting" >City/ Country</th>
+                                <th className="sorting" >Passenger Name</th>
                                 <th className="sorting" >Booking Status</th>
-                                <th className="sorting">Remark</th>
-                                <th className="sorting">Generate By</th>
-                                <th className="sorting">Created</th>
-                                <th className="sorting">Summary</th>
+                                <th className="sorting" >Price</th>
+                                <th className="sorting" >Payment Status</th>
+                                <th className="sorting" >Created</th>
+                                <th className="sorting" >Action</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -99,10 +112,7 @@ function MyAmendmentListComp() {
                                 <td valign="top" className="dataTables_empty">----</td>
                                 <td valign="top" className="dataTables_empty">----</td>
                                 <td valign="top" className="dataTables_empty">----</td>
-                                <td valign="top" className="dataTables_empty">----</td>
-                                <td valign="top" className="dataTables_empty">----</td>
-                                <td valign="top" className="dataTables_empty">----</td>
-                                <td valign="top" className="dataTables_empty">----</td>
+                               
                             </tr>
                         </tbody>
                     </table>
@@ -126,4 +136,4 @@ function MyAmendmentListComp() {
   )
 }
 
-export default MyAmendmentListComp
+export default VisaCancellationsComp

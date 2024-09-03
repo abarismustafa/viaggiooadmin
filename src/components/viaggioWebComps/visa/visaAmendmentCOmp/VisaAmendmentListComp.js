@@ -1,12 +1,12 @@
+import React from 'react';
 import { Pagination } from 'antd'
-import React from 'react'
 
-function MyAmendmentListComp() {
+function VisaAmendmentListComp() {
   return (
     <>
     {/* {loading && <Loader />} */}
     <div className="PageHeading">
-        <h1>Hotel Amendments List</h1>
+        <h1>Amendments List</h1>
     </div>
     <div className="ContentArea">
         <div className="card">
@@ -75,11 +75,8 @@ function MyAmendmentListComp() {
                                 Amendment Type
                                 </th>
                                 <th className="sorting" >Amendment Status</th>
-                                <th className="sorting" >Hotel Name</th>
-                                <th className="sorting" >Traveller Name	</th>
-                                <th className="sorting" >Checkin Date</th>
-                                <th className="sorting" >Check Out Date</th>
-                                <th className="sorting" >City/ Country</th>
+                                <th className="sorting" >Country</th>
+                                <th className="sorting" >Type	</th>
                                 <th className="sorting" >Booking Status</th>
                                 <th className="sorting">Remark</th>
                                 <th className="sorting">Generate By</th>
@@ -90,8 +87,6 @@ function MyAmendmentListComp() {
                         <tbody>
                             <tr className="odd">
                                 <td valign="top" className="dataTables_empty">1</td>
-                                <td valign="top" className="dataTables_empty">----</td>
-                                <td valign="top" className="dataTables_empty">----</td>
                                 <td valign="top" className="dataTables_empty">----</td>
                                 <td valign="top" className="dataTables_empty">----</td>
                                 <td valign="top" className="dataTables_empty">----</td>
@@ -126,4 +121,4 @@ function MyAmendmentListComp() {
   )
 }
 
-export default MyAmendmentListComp
+export default VisaAmendmentListComp
